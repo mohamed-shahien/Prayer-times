@@ -1,0 +1,19 @@
+{
+  "name": "prayer-times",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamed-shahien/Prayer-times.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohamed-shahien/Prayer-times/issues"
+  },
+  "homepage": "https://github.com/mohamed-shahien/Prayer-times#readme"
+}
