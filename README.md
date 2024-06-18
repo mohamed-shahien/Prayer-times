@@ -17,18 +17,17 @@ This project displays prayer times for Egyptian cities using an external API.
 To install Axios, you can use npm or include it directly from a CDN.
 
 #### Using npm:
-```bash
 npm install axios
-Using CDN:
+#### Using CDN:
 Add the following code to your HTML file within the <head> tag:
 
-html
+#### html
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 Usage Examples
 1. List of Cities
 A list of Egyptian cities with their names in Arabic and English:
 
-javascript
+ #### javascript
 ```bash
 let cities = [
   { ar: "القاهرة", en: "Cairo" },
