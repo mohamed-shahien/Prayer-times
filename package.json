@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mohamed-shahien/Prayer-times/issues"
   },
-  "homepage": "https://github.com/mohamed-shahien/Prayer-times#readme"
+  "homepage": "https://github.com/mohamed-shahien/Prayer-times#readme",
+  "dependencies": {
+    "axios": "^1.7.2"
+  }
 }

@@ -15,28 +15,23 @@
       <div class="top">
         <div class="left_data">
           <label class="select">
+            <select id="country" name="cars" value="">
+            </select>
+          </label>
+          <!--<label class="select">
             <select>
               <option value="1">Pure CSS Select</option>
               <option value="2">With wrapper</option>
               <option value="3">No JS!</option>
             </select>
-          </label>
-          <label class="select">
-            <select>
-              <option value="1">Pure CSS Select</option>
-              <option value="2">With wrapper</option>
-              <option value="3">No JS!</option>
-            </select>
-          </label>
+          </label> -->
         </div>
         <div class="right_data">
           <h1>مواقيت الصلاه </h1>
           <h2 class="place"><span class="city">القاهره</span>  -  <span class="cuntry">مصر</span></h2>
           <div class="date">
-            <span class="day">الجمعه</span>
-            <span class="dayNum">03</span>
-            <span class="month">رمضان</span>
-            <span class="year">1222 هــ</span>
+            <span class="dayNum" id="readable"></span>
+            <span class="day" id="dayNmae">الجمعه</span>
           </div>
           <div class="cntdwn" id="prayertimer">
             <p id="LiveTime">
@@ -54,37 +49,33 @@
             </div>
           </div>
         </div>
-  
       </div>
-  
-  
-  
-  
-  
       <div class="bottom">
         <div class="container">
           <div class="prayersTable">
             <div class="title">
-              <h2 class="name">صلاة العشاء</h2>
-              <h2 class="name">صلاة المغرب</h2>
-              <h2 class="name">صلاة العصر</h2>
-              <h2 class="name">صلاة الظهر</h2>
-              <h2 class="name">الشروق</h2>
-              <h2 class="name">صلاة الفجر</h2>
+              <h2 class="name" >صلاة العشاء</h2>
+              <h2 class="name" >صلاة المغرب</h2>
+              <h2 class="name" >صلاة العصر</h2>
+              <h2 class="name" >صلاة الظهر</h2>
+              <h2 class="name" >الشروق</h2>
+              <h2 class="name" >صلاة الفجر</h2>
             </div>
             <div class="allTimes">
-              <div class="time">04:07<span>ص</span></div>
-              <div class="time">05:52<span>ص</span></div>
-              <div class="time">12:55<span id="Zohrampm">م</span></div>
-              <div class="time">4:31<span>م</span></div>
-              <div class="time">7:58<span>م</span></div>
-              <div class="time">9:30<span>م</span></div>
+              <div class="time" id="asha_time">04:07</div>
+              <div class="time" id="sunset_time">05:52</div>
+              <div class="time" id="alasre_time">12:55</div>
+              <div class="time" id="alzohr_time">4:31</div>
+              <div class="time" id="sunrise_time">7:58</div>
+              <div class="time" id="fagr_time">9:30</div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+  <script src="/node_modules/axios/dist/axios.min.js"></script>
+<script src="main.js"></script>
 </body>
 
 </html>
