@@ -21,18 +21,15 @@ To install Axios, you can use npm or include it directly from a CDN.
 npm install axios
 Using CDN:
 Add the following code to your HTML file within the <head> tag:
-```bash
+
+html
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-
-
 Usage Examples
 1. List of Cities
 A list of Egyptian cities with their names in Arabic and English:
 
 javascript
 ```bash
-
-نسخ الكود
 let cities = [
   { ar: "القاهرة", en: "Cairo" },
   { ar: "الإسكندرية", en: "Alexandria" },
@@ -61,7 +58,6 @@ let cities = [
 Cities are added to an HTML select element:
 
 javascript
-نسخ الكود
 let selectElement = document.getElementById('country');
 cities.forEach(city => {
   let optionElement = document.createElement('option');
@@ -72,7 +68,6 @@ cities.forEach(city => {
 When a city is selected from the dropdown, prayer times for that city are fetched:
 
 javascript
-نسخ الكود
 selectElement.addEventListener("change", function () {
   let trans = "";
   cities.forEach(item => {
@@ -87,7 +82,6 @@ selectElement.addEventListener("change", function () {
 Axios is used to fetch prayer times:
 
 javascript
-نسخ الكود
 function getprayertiming(cityName) {
   let params = {
     country: "EG",
